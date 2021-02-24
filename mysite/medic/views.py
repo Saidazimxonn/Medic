@@ -18,11 +18,11 @@ class PatientCreateView(TemplateView):
         doctors = Doctor.objects.all()
         context['doctors'] = doctors
         return context
-    def get_context_data(self, **kwargs):
-        context = super(PatientCreateView, self).get_context_data(**kwargs)
-        doc = Doctor.objects.all()
-        context['doc'] = doc
-        return context
+    # def get_context_data(self, **kwargs):
+    #     context = super(PatientCreateView, self).get_context_data(**kwargs)
+    #     doc = Doctor.objects.all()
+    #     context['doc'] = doc
+    #     return context
 
 class ActionView(View):
 
