@@ -23,7 +23,7 @@ class PatientCreateView(TemplateView):
     #     doc = Doctor.objects.all()
     #     context['doc'] = doc
     #     return context
-# +++++++++++++++++++++++++++++++++++++++++++
+
 class ActionView(View):
 
     def post(self, request):
