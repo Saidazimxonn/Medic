@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-23 12:24+0500\n"
+"POT-Creation-Date: 2021-02-24 17:21+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,7 +38,7 @@ msgstr ""
 msgid "Price"
 msgstr ""
 
-#: .\medic\templates\base.html:86 .\medic\templates\base.html:603
+#: .\medic\templates\base.html:86 .\medic\templates\base.html:590
 msgid "Testimonials"
 msgstr ""
 
@@ -46,151 +46,221 @@ msgstr ""
 msgid "Contact"
 msgstr ""
 
-#: .\medic\templates\base.html:164
+#: .\medic\templates\base.html:135
+msgid "Welcome to Life Care"
+msgstr ""
+
+#: .\medic\templates\base.html:135
+msgid "We Care Your Health"
+msgstr ""
+
+#: .\medic\templates\base.html:135
+msgid "We are Expert!"
+msgstr ""
+
+#: .\medic\templates\base.html:154
 msgid "Emergency Case"
 msgstr ""
 
-#: .\medic\templates\base.html:177
+#: .\medic\templates\base.html:155
+msgid ""
+"Dignissimos ducimus qui blanditii sentium volta tum deleniti atque "
+"coriasquos dolores et quas mole."
+msgstr ""
+
+#: .\medic\templates\base.html:163
+msgid "Working Hours"
+msgstr ""
+
+#: .\medic\templates\base.html:166
 msgid "Monday - Friday"
 msgstr ""
 
-#: .\medic\templates\base.html:178
+#: .\medic\templates\base.html:167
 msgid "Saturday"
 msgstr ""
 
-#: .\medic\templates\base.html:179
+#: .\medic\templates\base.html:168
 msgid "Sunday"
 msgstr ""
 
-#: .\medic\templates\base.html:189
+#: .\medic\templates\base.html:178
 msgid "Clinic Timetable"
 msgstr ""
 
-#: .\medic\templates\base.html:201
+#: .\medic\templates\base.html:179
+msgid ""
+"Dignissimos ducimus qui blanditii sentium volta tum deleniti atque cori as "
+"quos dolores et quas mole."
+msgstr ""
+
+#: .\medic\templates\base.html:189 .\medic\templates\base.html:422
 msgid "The Specialist Clinic"
 msgstr ""
 
-#: .\medic\templates\base.html:207
+#: .\medic\templates\base.html:195
 msgid "What We Do"
 msgstr ""
 
-#: .\medic\templates\base.html:208
+#: .\medic\templates\base.html:196
 msgid "Clinic Service"
 msgstr ""
 
-#: .\medic\templates\base.html:239 .\medic\templates\base.html:272
+#: .\medic\templates\base.html:197
+msgid ""
+"Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula "
+"enim, nonaliquam risus. Sed a tellus quis mi rhoncus dignissim."
+msgstr ""
+
+#: .\medic\templates\base.html:198
+msgid ""
+"Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed "
+"tellus faucibus"
+msgstr ""
+
+#: .\medic\templates\base.html:199
+msgid ""
+"bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque "
+"penatibus et magnis dis"
+msgstr ""
+
+#: .\medic\templates\base.html:200
+msgid "parturient montes, nascetur ridiculus mus."
+msgstr ""
+
+#: .\medic\templates\base.html:201
+msgid "Learn More"
+msgstr ""
+
+#: .\medic\templates\base.html:225 .\medic\templates\base.html:258
 msgid "Digital Control Center"
 msgstr ""
 
-#: .\medic\templates\base.html:250
+#: .\medic\templates\base.html:236
 msgid "Hygienic Operating Room"
 msgstr ""
 
-#: .\medic\templates\base.html:261
+#: .\medic\templates\base.html:247
 msgid "Specialist Physicians"
 msgstr ""
 
-#: .\medic\templates\base.html:290
+#: .\medic\templates\base.html:276
 msgid "PREMIUM FACILITIES"
 msgstr ""
 
-#: .\medic\templates\base.html:291 .\medic\templates\base.html:299
-#: .\medic\templates\base.html:307 .\medic\templates\base.html:315
-#: .\medic\templates\base.html:323 .\medic\templates\base.html:331
+#: .\medic\templates\base.html:277 .\medic\templates\base.html:285
+#: .\medic\templates\base.html:294 .\medic\templates\base.html:302
+#: .\medic\templates\base.html:310 .\medic\templates\base.html:318
 msgid "Lorem Ipsum is simply dummy text of the printing."
 msgstr ""
 
-#: .\medic\templates\base.html:298
+#: .\medic\templates\base.html:284
 msgid "LARGE LABORATORY"
 msgstr ""
 
-#: .\medic\templates\base.html:306
+#: .\medic\templates\base.html:293
 msgid "DETAILED SPECIALIST"
 msgstr ""
 
-#: .\medic\templates\base.html:314
+#: .\medic\templates\base.html:301
 msgid "CHILDREN CARE CENTER"
 msgstr ""
 
-#: .\medic\templates\base.html:322
+#: .\medic\templates\base.html:309
 msgid "FINE INFRASTRUCTURE"
 msgstr ""
 
-#: .\medic\templates\base.html:330
+#: .\medic\templates\base.html:317
 msgid "ANYTIME BLOOD BANK"
 msgstr ""
 
-#: .\medic\templates\base.html:339
+#: .\medic\templates\base.html:326
 msgid "Book Appointment"
 msgstr ""
 
-#: .\medic\templates\base.html:610 .\medic\templates\base.html:646
+#: .\medic\templates\base.html:597 .\medic\templates\base.html:633
 msgid "The amazing clinic! Wonderful Support!"
 msgstr ""
 
-#: .\medic\templates\base.html:616
+#: .\medic\templates\base.html:598 .\medic\templates\base.html:614
+#: .\medic\templates\base.html:634 .\medic\templates\base.html:650
+msgid ""
+"They have got my project on time with the competition with a sed highly "
+"skilled,"
+msgstr ""
+
+#: .\medic\templates\base.html:599 .\medic\templates\base.html:615
+#: .\medic\templates\base.html:635 .\medic\templates\base.html:651
+msgid "and experienced & professional team."
+msgstr ""
+
+#: .\medic\templates\base.html:603
 msgid "James Fernando"
 msgstr ""
 
-#: .\medic\templates\base.html:616 .\medic\templates\base.html:652
+#: .\medic\templates\base.html:603 .\medic\templates\base.html:639
 msgid "Manager of Racer"
 msgstr ""
 
-#: .\medic\templates\base.html:626 .\medic\templates\base.html:662
+#: .\medic\templates\base.html:613 .\medic\templates\base.html:649
 msgid "Thanks for Help us!"
 msgstr ""
 
-#: .\medic\templates\base.html:632
+#: .\medic\templates\base.html:619
 msgid "Andrew Atkinson"
 msgstr ""
 
-#: .\medic\templates\base.html:632
+#: .\medic\templates\base.html:619
 msgid "Life Manager"
 msgstr ""
 
-#: .\medic\templates\base.html:652
+#: .\medic\templates\base.html:639
 msgid "Amanda DOE"
 msgstr ""
 
-#: .\medic\templates\base.html:668
+#: .\medic\templates\base.html:655
 msgid "Martin Johnson"
 msgstr ""
 
-#: .\medic\templates\base.html:668
+#: .\medic\templates\base.html:655
 msgid "Founder of Goosilo"
 msgstr ""
 
-#: .\medic\templates\base.html:738
+#: .\medic\templates\base.html:672
+msgid "Get in Touch"
+msgstr ""
+
+#: .\medic\templates\base.html:725
 msgid ""
 "Locavore pork belly scen ester pine est chill wave microdosing pop uple "
 "itarian cliche artisan."
 msgstr ""
 
-#: .\medic\templates\base.html:743
+#: .\medic\templates\base.html:730
 msgid "CONTACT US"
 msgstr ""
 
-#: .\medic\templates\base.html:744
+#: .\medic\templates\base.html:731
 msgid "PO Box"
 msgstr ""
 
-#: .\medic\templates\base.html:744
+#: .\medic\templates\base.html:731
 msgid "Collins Street West Victoria"
 msgstr ""
 
-#: .\medic\templates\base.html:745
+#: .\medic\templates\base.html:732
 msgid "Australia"
 msgstr ""
 
-#: .\medic\templates\base.html:752
+#: .\medic\templates\base.html:739
 msgid "SUBSCRIBE"
 msgstr ""
 
-#: .\medic\templates\base.html:753
+#: .\medic\templates\base.html:740
 msgid "Get healthy news, tip and solutions to your problems from our experts."
 msgstr ""
 
-#: .\medic\templates\base.html:787
+#: .\medic\templates\base.html:774
 msgid "Power by Diamond Solutions"
 msgstr ""
 
