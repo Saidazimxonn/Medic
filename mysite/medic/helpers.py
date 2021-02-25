@@ -10,13 +10,15 @@ def create_patient(post_request):
     day = post_request.get('day', '')
     time = post_request.get('time', '')
     doctor = post_request.get('doctor', '')
-    Patient.objects.create(name=name,
+    Patient.objects.create(
+                            name=name,
                             phone=phone,
                             email=email,
                             message=message,
                             day=day,
                             time=time,
-                            doctor_id=doctor)
+                            doctor_id=doctor
+    )
 
 
 def create_message(post_request):

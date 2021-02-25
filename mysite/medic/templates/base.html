@@ -178,7 +178,8 @@
                 <div class="service-time one" style="background:#2895f1;">
                     <span class="info-icon"><i class="fa fa-ambulance" aria-hidden="true"></i></span>
                     <h3>{% trans "Emergency Case" %}</h3>
-                    <p>{% trans "Dignissimos ducimus qui blanditii sentium volta tum deleniti atque coriasquos dolores et quas mole." %}</p>
+                    <p>{% trans "Dignissimos ducimus qui blanditii sentium volta tum" %}
+                        {% trans "deleniti atque coriasquos dolores et quas mole." %}</p>
                 </div>
             </div>
         </div>
@@ -202,7 +203,8 @@
                 <div class="service-time three" style="background:#0060b1;">
                     <span class="info-icon"><i class="far fa-hospital" aria-hidden="true"></i></i></span>
                     <h3>{% trans 'Clinic Timetable' %}</h3>
-                    <p>{% trans 'Dignissimos ducimus qui blanditii sentium volta tum deleniti atque cori as quos dolores et quas mole.' %}</p>
+                     <p>{% trans "Dignissimos ducimus qui blanditii sentium volta tum" %}
+                        {% trans "deleniti atque coriasquos dolores et quas mole." %}</p>
                 </div>
             </div>
         </div>
@@ -220,7 +222,8 @@
                 <div class="message-box">
                     <h4>{% trans 'What We Do' %}</h4>
                     <h2>{% trans 'Clinic Service' %}</h2>
-                    <p class="lead">{% trans "Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, nonaliquam risus. Sed a tellus quis mi rhoncus dignissim." %}</p>
+                    <p class="lead">{% trans "Quisque eget nisl id nulla sagittis auctor quis id." %}
+                         {% trans "Aliquam quis vehicula enim, nonaliquam risus. Sed a tellus quis mi rhoncus dignissim." %}</p>
                     <p> {% trans "Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus" %}
                        {% trans "bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis" %}
                         {% trans "parturient montes, nascetur ridiculus mus." %} </p>
@@ -422,8 +425,18 @@
                                     <div class="row">
                                         <div class="form-group">
                                             <div class="center">
-                                                <button type="submit" onclick='myFunction()'>
-                                                    Submit</button>
+                                                <!-- <button type="submit" onclick='myFunction()'> -->
+                                                    
+                                                    <!-- Submit</button> -->
+                                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-sm">Small modal</button>
+
+<div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+        Thank you for being with us`    
+    </div>
+  </div>
+</div>
                                                    
 
 <script>

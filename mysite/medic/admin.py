@@ -22,13 +22,13 @@ from .models import (
 
 class PatientAdmin(TranslationAdmin):
     list_display = (
-        'name', 'email', 'day', 'time', 'doctor', 'message'
+        'name', 'phone', 'email', 'day', 'time', 'doctor', 'message'
     )
     list_filter = (
         'day', 'doctor','time'
     )
     list_display_links =(
-         'name', 'email', 'day', 'time', 'doctor', 'message'
+         'name', 'phone', 'email', 'day', 'time', 'doctor', 'message'
     )
 
 

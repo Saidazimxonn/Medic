@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 # SECRET_KEY = '8)r00l6afux%f%i_k-d#*z@8o3sms@9#o0^8q-5&bt)+)yc=9i'
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '8)r00l6afux%f%i_k-d#*z@8o3sms@9#o0^8q-5&bt)+)yc=9i')
 # SECURITY WARNING: don't run with debug turned on in production!
-# DEBUG = False
-DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
-ALLOWED_HOSTS = []
+DEBUG = False
+# DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
+ALLOWED_HOSTS = ['saidazim.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
