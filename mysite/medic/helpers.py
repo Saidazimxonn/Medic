@@ -4,12 +4,14 @@ from .models import Email, Patient, Message
 
 def create_patient(post_request):
     name = post_request.get('name', '')
+    phone = post_request.get('phone', '')
     email = post_request.get('email', '')
     message = post_request.get('message', '')
     day = post_request.get('day', '')
     time = post_request.get('time', '')
     doctor = post_request.get('doctor', '')
     Patient.objects.create(name=name,
+                            phone=phone,
                             email=email,
                             message=message,
                             day=day,

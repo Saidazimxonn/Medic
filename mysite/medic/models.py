@@ -28,12 +28,13 @@ class Patient(models.Model):
     ]
 
     name = models.CharField('Name', max_length=100, help_text='Your Name')
+    phone = models.CharField('Phone', help_text='Phone', max_length=50)
     email = models.EmailField('Email',help_text='Email Address')
     day = models.CharField('Day', choices=DAY_WORK,default='D', max_length=10)
     time = models.CharField('Time', choices=TIME_WORK, default='A', max_length=10)
     doctor = models.ForeignKey(Doctor,on_delete=models.CASCADE)
     message = models.TextField('Message',help_text='Your Message...', null=True, blank=True)
-
+   
     def __str__(self):
         return self.name
 
