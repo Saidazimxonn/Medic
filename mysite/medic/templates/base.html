@@ -14,6 +14,9 @@
 <meta name="keywords" content="">
 <meta name="description" content="">
 <meta name="author" content="">
+<!-- Flag icons -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" integrity="sha512-Cv93isQdFwaKBV+Z4X8kaVBYWHST58Xb/jVOcV9aRsGSArZsgAnFIhMpDoMDcFNoUtday1hdjn0nGp3+KZyyFw==" crossorigin="anonymous" />
 <!-- Site Icons -->
 <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 <!-- +++++++++++++ -->
@@ -60,7 +63,7 @@
                                                   href="mailto:info@yoursite.com">info@Lifecare.com</a></span>
                     </div>
                     <div class="info-inner">
-                        <span class="icontop"><i class="fa fa-clock-o" aria-hidden="true"></i></span>
+                        <span class="icontop"><i class="far fa-clock" aria-hidden="true"></i></span>
                         <span class="iconcont"><a data-scroll href="#">Daily: 7:00am - 8:00pm</a></span>
                     </div>
                 </div>
@@ -85,28 +88,36 @@
                         <li><a data-scroll href="#price">{% trans 'Price' %}</a></li>
                         <li><a data-scroll href="#testimonials">{% trans 'Testimonials' %}</a></li>
                         <li><a data-scroll href="#getintouch">{% trans 'Contact' %}</a></li>
+
                     </ul>
+                  
                 </div>
+              
+                
             </nav>
-            <div class="serch-bar">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Language
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="list-style-type: none;">
+            
+                <div class="lang1">
+                    
                         {% get_current_language as LANGUAGE_CODE %}
                         {% get_available_languages as LANGUAGES %}
                         {% get_language_info_list for LANGUAGES as language %}
                         {% for lang in language %}
-                        <li>
-                        <a class="dropdown-item" href="/{{ lang.code }}/">{{ lang.name_local }} </a>
-                    </li>
-                    {% endfor %}
-                         <div class="dropdown-divider"></div>
-                         <a class="dropdown-item" href="#">Something else here</a>
-                </ul>
-                  </li>
-            </div>
+                            {% if lang.code == 'ru' %}
+                                <a class="langT" href="/ru/"><span id="ic" class="flag-icon flag-icon-ru"> </span>RU</a>
+                            {% elif lang.code == 'en' %}
+                                <a class="langT" href="/en/"><span id="ic" class="flag-icon flag-icon-gb"> </span>EN</a>
+
+                            {% endif %}
+                           
+                                
+                            
+                        {% endfor %} 
+                      
+                        </div>
+              
+        </div> 
+  
+          
             <div class="contac-singel">
 <h3 class="editContent">
 <span class="sub-title editContent" >
